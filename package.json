@@ -1,0 +1,20 @@
+{
+  "name": "git-exercise-02",
+  "version": "1.0.0",
+  "description": "JavaScript and NPM modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ejbarce36/git-exercise-02.git"
+  },
+  "keywords": [],
+  "author": "Emmanuelle Jim Arce <emmanuelle.arce@siteminder.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ejbarce36/git-exercise-02/issues"
+  },
+  "homepage": "https://github.com/Ejbarce36/git-exercise-02#readme"
+}
