@@ -1,6 +1,5 @@
 function square (n) {
-    let square = n * n;
-    return square;
+    return square = n * n;
 }
 
 function fahrenhiet (celsius) {
@@ -12,8 +11,7 @@ function recrangleArea (a, b) {
 }
 
 function isPalindrome (str) {
-    let re = /[^A-Za-z0-9]/g;
-    str = str.toLower().replace(re, '');
+    str = str.toLower();
 
     for (let i = 0; i < len/2; i++) {
         if (str[i] !== str [len - 1 -i]) {
