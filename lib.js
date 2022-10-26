@@ -1,24 +1,24 @@
 function square(n) {
-  return (square = n * n);
+  return (square = n * n)
 }
 
 function fahrenhiet(celsius) {
-  return celsius * 1.8 + 32;
+  return celsius * 1.8 + 32
 }
 
 function recrangleArea(a, b) {
-  return a * b;
+  return a * b
 }
 
 function isPalindrome(str) {
-  str = str.toLowerCase();
+  str = str.toLowerCase()
 
   for (let i = 0; i < str.length / 2; i++) {
     if (str[i] !== str[str.length - 1 - i]) {
-      return false;
+      return false
     }
   }
-  return true;
+  return true
 }
 
 module.exports = {
@@ -26,4 +26,4 @@ module.exports = {
   fahrenhiet,
   recrangleArea,
   isPalindrome,
-};
+}
